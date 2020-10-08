@@ -1,32 +1,92 @@
 *{
   margin: 0; 
   padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .firstbox {
   margin: 0px;
-  height: 300px;
-  background-image: url(IMG_5999.JPG);
-  background-size: cover;
+  height: 450px;
+  background-color: rgba(128, 128, 128, 0.842);
+  background-size: 100% 100%;
+  
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.firstbox>nav{
-  left: 60%;
+ .firstbox>header{
+  text-align:center;
+  color: rgba(1, 0, 0, 0.788);
+ }
+ .firstbox>header>nav{
+   padding-top: 2%;
+   position: relative ;
+   right: 10%;
+  text-decoration: none;
+   text-align: right;
+   padding-right: 2%;
+   
+ }
+ .firstbox h3{
+   padding-top: 30%;
+   text-shadow: black 2px;
+ }
+ .firstbox>header>nav>span{
+  margin-right: 30%;
+  text-decoration-line: none;
+  text-shadow: black 2px;
+ }
+ .firstbox>header>nav>span>a{
+  padding: 5px;
+  background-color:aliceblue ;
+  border-radius: 15px;
+  text-decoration-line: none;
+  color:  rgba(17, 17, 17, 0.986);
+  text-shadow: black 2px;
+ }
+.firstbox>header>nav>a{
+  padding: 5px;
+  text-decoration-line: none;
+  color:  rgba(17, 17, 17, 0.986);
+  text-shadow: black 2px;
+  background-color:aliceblue ;
+  border-radius: 15px;
 }
- 
+.firstbox p{
+  padding-top: 1%;
+  text-shadow: black 2px;
+}
+.secndanchor{
+  margin-top: 3%;
+}
+.secndanchor a, .fifthbox a{
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration-line: none;
+  background-color:  rgba(230, 158, 158, 0.986);
+  color: aliceblue;
+  text-shadow: black 5px;
+}
 .secondbox {
   text-align: center;
   height: 300px;
-  background-color: brown;
+  
 }
-.allhr{margin: auto;
+.secondbox>p{
+  padding-bottom: 3%;
+}
+.allhr{
+  position: relative;
+  top: 10px;
+  margin:auto; 
+  width: 50px;
 
 }
 .box1{
-  margin-top :5%;
+  padding-top :3%;
   display: inline-block;
-  width: 80%;
+  width: 100%;
   height:80% ;
+  background-color:  rgba(230, 158, 158, 0.986);
   /* background-color: cornsilk; */
 
 }
@@ -37,45 +97,67 @@
 .thirdbox {
   text-align: center;
   display: inline-block;
-  height: 70%;
-  
+  height: 50%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
-.thirdbox>hr{
-  margin: auto;
-}
-.d1>i{
-  color:brown;
+.d1>i, .d1>p{
+  color:  rgba(230, 158, 158, 0.986);
 }
 .forthbox{
-  height: 150px;
+  height: 400px;
 }
 .forthbox>img {
-
   width: 33.3%;
   object-fit: cover;
   float: left;
   height: 50%;
 }
 .d1{
+ 
+  margin-top: 3%;
+  padding: 1%;
   width:19% ;
   display: inline-block;
 }
+.button {
+  padding: 2%;
+  width: 18%; 
+  position: relative;
+  left: 20%;
+  display: inline-block;
+  color:palevioletred;
+}
+.button>i{
+  border: 1px solid rgba(230, 158, 158, 0.986);
+  padding: 7px;
+  border-radius: 50%;
+}
+.button>i,.button>p{
+  display: inline-block;
+  font-size: 100%;
+}
 .fifthbox {
   clear: both;
-  
-  height: 100px;
-  background-color: darkslategrey;
+  padding-top: 2%;
+  height: 120px;
+  background-color:  rgba(128, 128, 128, 0.842);
+  text-align: center;
+  }
 
 .sixthbox {
+  text-align: center;
+  padding-top: 2%;
   height: 100px;
-  background-color: forestgreen;
+  /* background-color: forestgreen; */
+}
+.sixthbox p, .box1 p{
+  padding-top: 3%;
 }
 .seventhbox {
-  height: 100px;
-  background-color: hotpink;
+  border-top: solid black 0.1px;
+  height: 40px;
+  text-align: center;
+  text-decoration: rgb(226, 216, 216);
 }
-nav>a{
- text-align: left;
-  color: lawngreen;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
+
